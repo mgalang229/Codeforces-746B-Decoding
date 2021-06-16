@@ -21,7 +21,7 @@ int main() {
 				res += s[i];
 			}
 		}
-		// second half: run a for-loop starting with index 0 an dstart concatenating characters
+		// second half: run a for-loop starting with index 0 and start concatenating characters
 		// that are place in an odd position (zero-based) in increasing order
 		for (int i = 0; i < n; i++) {
 			if (i & 1) {
@@ -39,7 +39,7 @@ int main() {
 				res += s[i];
 			}
 		}
-		// second half: run a for-loop starting with index 0  and start concatenating characters
+		// second half: run a for-loop starting with index 0 and start concatenating characters
 		// that are place in an even position (zero-based) in increasing order
 		for (int i = 0; i < n; i++) {
 			if (i % 2 == 0) {
